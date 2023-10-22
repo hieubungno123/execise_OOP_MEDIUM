@@ -1,0 +1,30 @@
+-Khai báo lớp 
++CangBo: Họ tên,Tuổi,Sex,Address
+
++Công nhân: 
+	*Thuộc tính: Bậc từ 1->10
+
++Kỹ sư: 
+	*Attrubute: Ngành đào tạo (IF, Kế toán , Vien thông, Quan trị kinh doanh)
+
++Nhân viên: 
+	*Attribute: Công việc(Developer, Sale, designer, manager 
+	
+
+Xây dựng lớp CongNhan, KySu, NhanVien kế thừa từ lớp CanBo
+
+Lớp QLCB(Quan Ly Can Bo) gồm các phương thức:
+1.Thêm cán bộ
+2.Tìm kiếm cán bộ
+3.Hiện thị thông tin danh sách các cán bộ
+4.Xắp xếp danh sách theo tên
+	Công nhân
+	Kỹ sư
+	Nhân Viên
+.Thoát khỏi chương trình  
+
+3 package
+entity: Gồm thông tin các cán bộ 
+LogicalHandle: Xử lý ra, vào, sắp xếp, thoát của các cán bộ
+Statics: ENUM
+
